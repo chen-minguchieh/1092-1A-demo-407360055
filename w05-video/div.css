@@ -48,13 +48,13 @@ body {
 
 #main {
     width: 100%;
-    height: 40rem;
+    height: none;
     background-color: rgb(200, 209, 211);
     display: flex;
 }
 aside {
     width: 20%;
-    height: 40rem;
+    height: none;
     background-color: rgb(223, 229, 230);
 }
 
@@ -79,7 +79,7 @@ aside li a:hover {
 }
 #section {
     width: 80%;
-    height: 40rem;
+    height: none;
     background-color: rgb(250, 254, 255);
 }
 .video-responsive {
@@ -89,7 +89,7 @@ aside li a:hover {
   height: 0;
 }
 .video-responsive iframe{
-    left: 0;
+  left: 0;
   top: 0;
   height: 100%;
   width: 100%;
