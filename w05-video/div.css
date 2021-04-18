@@ -15,7 +15,9 @@ body {
 #container {
     width: 90%;
     border: 2px solid pink; 
+    background-color:  rgb(208, 235, 135);
     margin: 1.5rem auto;
+    text-align: center;
 }
 
 #heading {
@@ -23,6 +25,8 @@ body {
     height: 7rem;
     background-color: rgb(208, 235, 135);
     text-align: center;
+    display: inline-flex;
+    vertical-align: top;
 }
 
 #heading ul {
@@ -30,10 +34,13 @@ body {
     list-style: none;
     margin-top: 2rem;
     padding-left: 1rem;
+    float: left;
+    width: 50%;
 }
 
 #heading li {
     padding: 0 0.5rem 1rem 0.5rem;
+    display: inline;
 }
 
 #heading li a {
