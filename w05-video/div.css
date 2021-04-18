@@ -108,3 +108,6 @@ aside li a:hover {
     height: 7rem;
     background-color: rgb(215, 230, 171);
 }
+#player {
+    margin: 1rem
+}
