@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./iframeDemo.css">
+</head>
+<body>
+    <script src="./iframeDemo.js"></script>
+    <div id="container">
+        <h1>Class Demos</h1>
+        <div id="heading">
+
+        </br>
+        <ul>
+            <li onclick="goPage(1)">
+                <a href="#">Pokemon</a>
+            </li>
+            <li onclick="goPage(2)">
+                <a href="#">gallery</a>
+            </li>
+            <li onclick="goPage(3)">
+                <a href="#">TKU60</a>
+            </li>
+        </ul>
+        <ul>
+            <li onclick="toggle()">
+            <a href="#">Toggle</a>
+            </li>
+            <li onclick="colorMenu()">
+            <a href="#">Color Menu</a>
+            </li>
+            <li onclick="videoMenu()">
+            <a href="#">img3</a>
+            </li>
+            <li onclick="changeImage(4)">
+            <a href="#">img4</a>
+            </li>
+            <li onclick="changeImage(5)">
+            <a href="#">img5</a>
+            </li>
+        </ul>
+        </div>
+        <div id="main" class="invisible">
+            <aside>
+            
+                <ul>
+                    <li onclick="changeVideo(1)">
+                        <a href="#">淡江大戲 01</a>
+                    </li>
+                    <li onclick="changeVideo(2)">
+                        <a href="#">淡江大戲 02</a>
+                    </li>
+                    <li onclick="changeVideo(3)">
+                        <a href="#">淡江大戲 03</a>
+                    </li>
+                    <li onclick="changeVideo(4)">
+                        <a href="#">淡江大戲 04</a>
+                    </li>
+                    <li onclick="changeVideo(5)">
+                        <a href="#">淡江大戲 05</a>
+                    </li>
+                </ul>
+            </aside>
+            <div id="section">
+                <div class="video-responsive">
+                    <div id="player">
+                        <iframe 
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/RechrtUxfQc" 
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        </div>
+        
+    </div>
+    
+</body>
+</html>
